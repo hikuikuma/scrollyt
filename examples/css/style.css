@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e9e9e9;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: rebeccapurple;
+}
+
+main {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-top: 1px solid #292929;
+}
+
+.vide {
+    width: 100%;
+    height: 1000px;
+}
+
+#place {
+    width: 100%;
+}
+
+#blocA {
+    width: 440px;
+    height: 100px;
+    background-color: blue;
+}

@@ -7,20 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="../lib/Scrollyt.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header></header>
 <main>
+    <div class="vide"></div>
     <div id="place">
         <div id="blocA"></div>
     </div>
+    <div class="vide"></div>
 </main>
-<footer></footer>
+<footer>
+    Exemple généré
+</footer>
 
 <script>
     const Syt = new Scrollyt()
-    Syt.twoPointsTransform('blocA', 'translate3d', {x: 0, y:null, z:null}, {x: '-300px',y:null,z:null},'place','top-bottom--100','top-top-100')
+    Syt.twoPointsTransform('blocA', 'translate3d', '0,0,0', '1000px,0,0','place','top-bottom--100','top-top-100')
 </script>
 
 </body>
